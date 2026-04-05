@@ -1,0 +1,50 @@
+2026-04-04 23:30:15  INFO      main — ╔══════════════════════════════════════════════════════╗
+2026-04-04 23:30:15  INFO      main — ║         spectra_downloader — início                  ║
+2026-04-04 23:30:15  INFO      main — ╠══════════════════════════════════════════════════════╣
+2026-04-04 23:30:15  INFO      main — ║  Início  : 2026-04-05 02:30 UTC
+2026-04-04 23:30:15  INFO      main — ║  Alvos   : /Users/rafaelferreira/1_Workspace_Ativo/Programs in progress/Get Spectra/spectra_downloader/targets/lubin2010.csv
+2026-04-04 23:30:15  INFO      main — ║  Projeto : (padrão)
+2026-04-04 23:30:15  INFO      main — ║  SPECTRA : /Users/rafaelferreira/SPECTRA
+2026-04-04 23:30:15  INFO      main — ╚══════════════════════════════════════════════════════╝
+2026-04-04 23:30:15  INFO      main — Lista de alvos: 33 estrelas carregadas de /Users/rafaelferreira/1_Workspace_Ativo/Programs in progress/Get Spectra/spectra_downloader/targets/lubin2010.csv
+2026-04-04 23:30:15  DEBUG     main — Módulo 'elodie' desativado em config.DOWNLOAD_MODULES
+2026-04-04 23:30:15  DEBUG     main — Módulo 'uves' desativado em config.DOWNLOAD_MODULES
+2026-04-04 23:30:15  DEBUG     main — Módulo 'feros' desativado em config.DOWNLOAD_MODULES
+2026-04-04 23:30:15  INFO      main — Módulos a executar: polarbase
+2026-04-04 23:30:15  INFO      main — 
+2026-04-04 23:30:15  INFO      main — ┌─────────────────────────────────────────┐
+2026-04-04 23:30:15  INFO      main — │  Módulo 1/1: POLARBASE                    │
+2026-04-04 23:30:15  INFO      main — └─────────────────────────────────────────┘
+2026-04-04 23:30:15  INFO      polarbase — ═══════════════════════════════════════════════════════
+2026-04-04 23:30:15  INFO      polarbase — Iniciando download PolarBase  (33 estrelas)
+2026-04-04 23:30:15  INFO      polarbase — ═══════════════════════════════════════════════════════
+2026-04-04 23:30:15  INFO      polarbase — ── HD 10307 ──
+2026-04-04 23:30:15  DEBUG     polarbase — API GET: https://polarbase.irap.omp.eu/api/v2/targets/
+2026-04-04 23:30:15  DEBUG     urllib3.connectionpool — Starting new HTTPS connection (1): polarbase.irap.omp.eu:443
+2026-04-04 23:30:16  WARNING   polarbase — PolarBase: SSL falhou (HTTPSConnectionPool(host='polarbase.irap.omp.eu', port=443): Max retries exceeded with url: /api/v2/targets/?name=HD+10307&page_size=10 (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'polarbase.irap.omp.eu'. (_ssl.c:1000)")))) — retentando sem verificação.
+2026-04-04 23:30:16  DEBUG     urllib3.connectionpool — Starting new HTTPS connection (1): polarbase.irap.omp.eu:443
+2026-04-04 23:30:39  DEBUG     urllib3.connectionpool — https://polarbase.irap.omp.eu:443 "GET /api/v2/targets/?name=HD+10307&page_size=10 HTTP/1.1" 503 299
+2026-04-04 23:30:39  WARNING   polarbase — Tentativa 1/4 falhou (503 Server Error: Service Unavailable for url: https://polarbase.irap.omp.eu/api/v2/targets/?name=HD+10307&page_size=10). Aguardando 10s...
+2026-04-04 23:30:49  DEBUG     polarbase — API GET: https://polarbase.irap.omp.eu/api/v2/targets/
+2026-04-04 23:30:49  DEBUG     urllib3.connectionpool — Starting new HTTPS connection (1): polarbase.irap.omp.eu:443
+2026-04-04 23:30:51  WARNING   polarbase — PolarBase: SSL falhou (HTTPSConnectionPool(host='polarbase.irap.omp.eu', port=443): Max retries exceeded with url: /api/v2/targets/?name=HD+10307&page_size=10 (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'polarbase.irap.omp.eu'. (_ssl.c:1000)")))) — retentando sem verificação.
+2026-04-04 23:30:51  DEBUG     urllib3.connectionpool — Starting new HTTPS connection (1): polarbase.irap.omp.eu:443
+2026-04-04 23:30:52  DEBUG     urllib3.connectionpool — https://polarbase.irap.omp.eu:443 "GET /api/v2/targets/?name=HD+10307&page_size=10 HTTP/1.1" 503 299
+2026-04-04 23:30:52  WARNING   polarbase — Tentativa 2/4 falhou (503 Server Error: Service Unavailable for url: https://polarbase.irap.omp.eu/api/v2/targets/?name=HD+10307&page_size=10). Aguardando 10s...
+2026-04-04 23:31:02  DEBUG     polarbase — API GET: https://polarbase.irap.omp.eu/api/v2/targets/
+2026-04-04 23:31:02  DEBUG     urllib3.connectionpool — Starting new HTTPS connection (1): polarbase.irap.omp.eu:443
+2026-04-04 23:31:02  WARNING   polarbase — PolarBase: SSL falhou (HTTPSConnectionPool(host='polarbase.irap.omp.eu', port=443): Max retries exceeded with url: /api/v2/targets/?name=HD+10307&page_size=10 (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'polarbase.irap.omp.eu'. (_ssl.c:1000)")))) — retentando sem verificação.
+2026-04-04 23:31:02  DEBUG     urllib3.connectionpool — Starting new HTTPS connection (1): polarbase.irap.omp.eu:443
+2026-04-04 23:31:03  DEBUG     urllib3.connectionpool — https://polarbase.irap.omp.eu:443 "GET /api/v2/targets/?name=HD+10307&page_size=10 HTTP/1.1" 503 299
+2026-04-04 23:31:03  WARNING   polarbase — Tentativa 3/4 falhou (503 Server Error: Service Unavailable for url: https://polarbase.irap.omp.eu/api/v2/targets/?name=HD+10307&page_size=10). Aguardando 10s...
+2026-04-04 23:31:13  DEBUG     polarbase — API GET: https://polarbase.irap.omp.eu/api/v2/targets/
+2026-04-04 23:31:13  DEBUG     urllib3.connectionpool — Starting new HTTPS connection (1): polarbase.irap.omp.eu:443
+2026-04-04 23:31:14  WARNING   polarbase — PolarBase: SSL falhou (HTTPSConnectionPool(host='polarbase.irap.omp.eu', port=443): Max retries exceeded with url: /api/v2/targets/?name=HD+10307&page_size=10 (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'polarbase.irap.omp.eu'. (_ssl.c:1000)")))) — retentando sem verificação.
+2026-04-04 23:31:14  DEBUG     urllib3.connectionpool — Starting new HTTPS connection (1): polarbase.irap.omp.eu:443
+2026-04-04 23:31:15  DEBUG     urllib3.connectionpool — https://polarbase.irap.omp.eu:443 "GET /api/v2/targets/?name=HD+10307&page_size=10 HTTP/1.1" 503 299
+2026-04-04 23:31:15  ERROR     polarbase — Falha definitiva após 4 tentativas: 503 Server Error: Service Unavailable for url: https://polarbase.irap.omp.eu/api/v2/targets/?name=HD+10307&page_size=10
+2026-04-04 23:31:15  DEBUG     polarbase — Falha na busca por 'HD 10307': 503 Server Error: Service Unavailable for url: https://polarbase.irap.omp.eu/api/v2/targets/?name=HD+10307&page_size=10
+2026-04-04 23:31:15  DEBUG     polarbase — API GET: https://polarbase.irap.omp.eu/api/v2/targets/
+2026-04-04 23:31:15  DEBUG     urllib3.connectionpool — Starting new HTTPS connection (1): polarbase.irap.omp.eu:443
+2026-04-04 23:31:15  WARNING   polarbase — PolarBase: SSL falhou (HTTPSConnectionPool(host='polarbase.irap.omp.eu', port=443): Max retries exceeded with url: /api/v2/targets/?name=HD10307&page_size=10 (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'polarbase.irap.omp.eu'. (_ssl.c:1000)")))) — retentando sem verificação.
+2026-04-04 23:31:15  DEBUG     urllib3.connectionpool — Starting new HTTPS connection (1): polarbase.irap.omp.eu:443
